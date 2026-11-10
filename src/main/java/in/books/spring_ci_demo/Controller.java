@@ -11,7 +11,7 @@ public class Controller {
 
     @GetMapping("/message")
     public ResponseEntity<String> getMessage() {
-        return ResponseEntity.ok("Hello, Spring CI Demo!");
+        return ResponseEntity.ok("Hello, Spring CI Demo!!");
     }
     
 }
