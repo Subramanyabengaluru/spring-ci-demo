@@ -13,5 +13,10 @@ public class Controller {
     public ResponseEntity<String> getMessage() {
         return ResponseEntity.ok("Hello, Spring CI Demo!!");
     }
+
+    @GetMapping 
+    public String welcome() {
+        return "Welcome to Spring CI Demo!";
+    }
     
 }
