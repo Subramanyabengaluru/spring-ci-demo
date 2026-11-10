@@ -16,7 +16,9 @@ public class Controller {
 
     @GetMapping 
     public String welcome() {
-        return "Welcome to Spring CI Demo!";
+        return "Welcome Sushma!!";
     }
+
+
     
 }
